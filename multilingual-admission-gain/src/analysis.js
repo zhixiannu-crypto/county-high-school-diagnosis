@@ -10,18 +10,20 @@ export function analyzeEnglish(group){const rows=group.rows.map(r=>({...r})),n=r
  const candidate=r=>r.weak||r.imbalance===true;const bins=[[0,30],[30,60],[60,90],[90,120],[120,151]].map(([lo,hi])=>({label:`${lo}–${hi===151?150:hi-1}`,count:rows.filter(r=>r.english>=lo&&r.english<hi).length}));
  return {...group,rows,n,meanEnglish:mean(values),medianEnglish:quantile(values,.5),weakCount:(!n||(!full&&n<RULES.minCohort))?null:weakCount,imbalanceCount,imbalanceEligible,overlap,candidateCount:rows.filter(candidate).length,bins,mode:imbalanceEligible?'完整成绩':rows.some(r=>r.total!=null)?'英语＋总分':'仅英语',weakBasis:full?'得分率与本组相对位置':'仅本组相对位置（满分未知）'};
 }
-export function matchCutoffs(meta,db){const p=db.find(p=>p.province===meta.province);if(!p||p.status!=='verified')return {reason:'该省2026年官方分数线尚未完成核验，保留英语学情分析。'};
+export function matchCutoffs(meta,db){if(!Array.isArray(db))return {reason:'省级高考分数线配置加载失败，暂不能进行达线测算。'};const p=db.find(p=>p.province===meta.province);if(!p||p.status!=='verified')return {reason:'该省份2026年分数线尚未完成核实，暂不能进行达线测算。'};
  const rec=p.records.find(r=>r.category===meta.category);if(!rec)return {reason:'招生类别无法可靠匹配2026年官方分数线。'};
  if(!meta.totalMax||+meta.totalMax!==rec.totalMax||+meta.englishMax!==rec.englishMax)return {reason:'考试满分制度未确认或与官方高考口径不匹配，不可直接比较。'};
  if(rec.scoreSystem==='标准分'||meta.province==='海南'||/标准分/.test(meta.scoreSystem||''))return {reason:'标准分不能直接加上原始外语差值，当前不生成跨线测算。'};
- if(!meta.exam||!meta.grade||!meta.year)return {reason:'考试、年级或年份信息不完整，不能确认统计范围。'};
  if(!/高考口径|原始与赋分合计|高考总分|原始分/.test(meta.scoreSystem||''))return {reason:'总分计分口径未确认（含选科赋分制度），不可直接比较。'};
  return {record:rec,province:p,referenceOnly:meta.exam!=='高考'||+meta.year!==2026};
 }
 export function historicalMatch(score,history){return history.groups.find(g=>score>=g.min&&score<g.maxExclusive&&g.usable&&g.n>=history.minGroupSize&&g.difference!=null)||null;}
-export function simulate(analysis,history,db){const matched=matchCutoffs(analysis.meta,db),eligible=analysis.rows.filter(r=>r.total!=null),n=eligible.length;const matchedCandidates=analysis.rows.filter(r=>r.weak||r.imbalance).map(r=>({r,g:historicalMatch(r.english,history)}));
+export function simulate(analysis,history,db){const eligible=analysis.rows.filter(r=>r.total!=null),n=eligible.length,matched=matchCutoffs(analysis.meta,db);
+ if(!matched.record)return {available:false,reason:matched.reason,n,reference:{eligible:0,unmatched:0},lines:[]};
+ if(!n)return {available:false,reason:'缺少可靠的逐条总分，当前数据不足以准确测算该指标。',n,reference:{eligible:0,unmatched:0},lines:[]};
+ if(!history?.groups){const lines=matched.record.lines.map(line=>{const current=eligible.filter(r=>r.total>=line.value).length,critical=eligible.filter(r=>r.total>=line.value-RULES.criticalBelow&&r.total<line.value+RULES.criticalAbove);return {...line,n,current,currentRate:pct(current,n),simulated:null,simulatedRate:null,added:null,lost:null,change:null,critical:critical.length,weakCritical:critical.filter(r=>r.weak).length,imbalanceCritical:analysis.imbalanceEligible?critical.filter(r=>r.imbalance).length:null};});return {available:true,referenceOnly:matched.referenceOnly,reason:'历史参考参数加载失败，暂不能计算升学改善情景。',n,reference:{eligible:0,unmatched:0},lines};}
+ const matchedCandidates=analysis.rows.filter(r=>r.weak||r.imbalance).map(r=>({r,g:historicalMatch(r.english,history)}));
  const historyAvailable=+analysis.meta.englishMax===history.englishMax;const reference={eligible:historyAvailable?matchedCandidates.filter(x=>x.g).length:0,unmatched:historyAvailable?matchedCandidates.filter(x=>!x.g).length:matchedCandidates.length};
- if(!matched.record)return {available:false,reason:matched.reason,n,reference,lines:[]};if(!n)return {available:false,reason:'缺少可靠的逐条总分，当前数据不足以准确测算该指标。',n,reference,lines:[]};
  const em=+analysis.meta.englishMax,tm=+analysis.meta.totalMax;
  const simulated=eligible.map(r=>{const candidate=r.weak||r.imbalance===true,g=candidate?historicalMatch(r.english,history):null;const delta=g?g.difference.median:0;const simulatedEnglish=Math.max(0,Math.min(em,r.english+delta));const total=Math.max(0,Math.min(tm,r.total+simulatedEnglish-r.english));return {r,g,total,delta:total-r.total};});
  // If any candidate lacks a supported historical stratum, no precise whole-cohort result.

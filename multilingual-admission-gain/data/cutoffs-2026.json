@@ -27,7 +27,16 @@
           }
         ]
       }
-    ]
+    ],
+    "sourceUrl": "https://bjksb.bjeea.cn/html/gkgz/tzgg/2026/0624/88239.html",
+    "sourcePublishedAt": null,
+    "examMode": "3+3",
+    "applicableCategories": [
+      "普通类"
+    ],
+    "totalMax": 750,
+    "hasExtraCategories": true,
+    "applicabilityNotes": "仅按已核验的普通类招生类别匹配；其他类别不自动套用。"
   },
   {
     "province": "天津",
@@ -57,7 +66,16 @@
           }
         ]
       }
-    ]
+    ],
+    "sourceUrl": "https://www.tj.gov.cn/zmhd/hygqx/202606/t20260624_7323009.html",
+    "sourcePublishedAt": null,
+    "examMode": "3+3",
+    "applicableCategories": [
+      "普通类"
+    ],
+    "totalMax": 750,
+    "hasExtraCategories": true,
+    "applicabilityNotes": "仅按已核验的普通类招生类别匹配；其他类别不自动套用。"
   },
   {
     "province": "河北",
@@ -107,27 +125,139 @@
           }
         ]
       }
-    ]
+    ],
+    "sourceUrl": "https://www.sjz.gov.cn/columns/839b1981-330e-4901-aba5-6c392154ce03/202606/25/78edbaa2-97c9-4e68-b156-680ad439ea21.html",
+    "sourcePublishedAt": null,
+    "examMode": "3+1+2",
+    "applicableCategories": [
+      "历史类",
+      "物理类"
+    ],
+    "totalMax": 750,
+    "hasExtraCategories": true,
+    "applicabilityNotes": "仅按已核验的普通类招生类别匹配；其他类别不自动套用。"
   },
   {
     "province": "山西",
     "year": 2026,
-    "status": "unverified",
+    "status": "verified",
     "checkedAt": "2026-10-20",
-    "reason": "教育部阳光高考索引有2026公告全文；直接打开仅返回输入框，未完成正文核验。",
+    "reason": "云冈区人民政府2026年6月26日刊载省招生考试管理中心公布的普通本科批与特殊类型分数。",
     "searchQuery": "2026 山西 普通高考 本科 特殊类型 录取控制分数线",
     "evidenceUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847661.html",
-    "records": []
+    "records": [
+      {
+        "category": "历史类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科批录取最低控制分数线",
+            "value": 409,
+            "sourceUrl": "https://www.yungang.gov.cn/ygqrmzfz/sxyw/202606/24512bbdd356481db13f0cb515f6d7bd.shtml"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型录取控制分数线",
+            "value": 538,
+            "sourceUrl": "https://www.yungang.gov.cn/ygqrmzfz/sxyw/202606/24512bbdd356481db13f0cb515f6d7bd.shtml"
+          }
+        ]
+      },
+      {
+        "category": "物理类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科批录取最低控制分数线",
+            "value": 401,
+            "sourceUrl": "https://www.yungang.gov.cn/ygqrmzfz/sxyw/202606/24512bbdd356481db13f0cb515f6d7bd.shtml"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型录取控制分数线",
+            "value": 524,
+            "sourceUrl": "https://www.yungang.gov.cn/ygqrmzfz/sxyw/202606/24512bbdd356481db13f0cb515f6d7bd.shtml"
+          }
+        ]
+      }
+    ],
+    "sourceUrl": "https://www.yungang.gov.cn/ygqrmzfz/sxyw/202606/24512bbdd356481db13f0cb515f6d7bd.shtml",
+    "sourcePublishedAt": "2026-06-26",
+    "examMode": "3+1+2",
+    "applicableCategories": [
+      "历史类",
+      "物理类"
+    ],
+    "totalMax": 750,
+    "hasExtraCategories": true,
+    "applicabilityNotes": "只匹配普通历史组、物理组；艺术体育等类别未启用。"
   },
   {
     "province": "内蒙古",
     "year": 2026,
-    "status": "unverified",
+    "status": "verified",
     "checkedAt": "2026-10-20",
-    "reason": "教育部阳光高考索引有2026普通类分数；直接打开仅返回输入框，未完成正文核验，未采用专项类别。",
+    "reason": "教育部阳光高考转载内蒙古招生考试信息网2026年6月24日公告全文；仅启用普通历史、物理类别，专项类别保持未配置。",
     "searchQuery": "2026 内蒙古 普通高考 本科 特殊类型 录取控制分数线",
     "evidenceUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260624/2293846506.html",
-    "records": []
+    "records": [
+      {
+        "category": "历史类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通类本科录取控制分数线",
+            "value": 403,
+            "sourceUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260624/2293846506.html"
+          },
+          {
+            "kind": "special",
+            "name": "本科特殊类型招生录取控制分数线",
+            "value": 512,
+            "sourceUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260624/2293846506.html"
+          }
+        ]
+      },
+      {
+        "category": "物理类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通类本科录取控制分数线",
+            "value": 363,
+            "sourceUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260624/2293846506.html"
+          },
+          {
+            "kind": "special",
+            "name": "本科特殊类型招生录取控制分数线",
+            "value": 488,
+            "sourceUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260624/2293846506.html"
+          }
+        ]
+      }
+    ],
+    "sourceUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260624/2293846506.html",
+    "sourcePublishedAt": "2026-06-24",
+    "examMode": "3+1+2",
+    "applicableCategories": [
+      "历史类",
+      "物理类"
+    ],
+    "totalMax": 750,
+    "hasExtraCategories": true,
+    "applicabilityNotes": "仅按已核验的普通类招生类别匹配；其他类别不自动套用。"
   },
   {
     "province": "辽宁",
@@ -177,17 +307,79 @@
           }
         ]
       }
-    ]
+    ],
+    "sourceUrl": "https://jyt.ln.gov.cn/jyt/jyzx/jyyw/2026063013492555300/index.shtml",
+    "sourcePublishedAt": null,
+    "examMode": "3+1+2",
+    "applicableCategories": [
+      "历史类",
+      "物理类"
+    ],
+    "totalMax": 750,
+    "hasExtraCategories": true,
+    "applicabilityNotes": "仅按已核验的普通类招生类别匹配；其他类别不自动套用。"
   },
   {
     "province": "吉林",
     "year": 2026,
-    "status": "unverified",
+    "status": "verified",
     "checkedAt": "2026-10-20",
-    "reason": "教育部阳光高考索引有2026公告全文；直接打开仅返回输入框，未完成正文核验。",
+    "reason": "已核对吉林省教育考试院2026年6月25日公告正文。",
     "searchQuery": "2026 吉林 普通高考 本科 特殊类型 录取控制分数线",
     "evidenceUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847517.html",
-    "records": []
+    "records": [
+      {
+        "category": "历史类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "本科最低控制线（普通类）",
+            "value": 343,
+            "sourceUrl": "https://www.jleea.com.cn/site1/xiangqingye/202728/"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型控制分数线",
+            "value": 478,
+            "sourceUrl": "https://www.jleea.com.cn/site1/xiangqingye/202728/"
+          }
+        ]
+      },
+      {
+        "category": "物理类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "本科最低控制线（普通类）",
+            "value": 321,
+            "sourceUrl": "https://www.jleea.com.cn/site1/xiangqingye/202728/"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型控制分数线",
+            "value": 473,
+            "sourceUrl": "https://www.jleea.com.cn/site1/xiangqingye/202728/"
+          }
+        ]
+      }
+    ],
+    "sourceUrl": "https://www.jleea.com.cn/site1/xiangqingye/202728/",
+    "sourcePublishedAt": "2026-06-25",
+    "announcementUrl": "https://www.jleea.com.cn/site1/xiangqingye/202728/",
+    "examMode": "3+1+2",
+    "applicableCategories": [
+      "历史类",
+      "物理类"
+    ],
+    "totalMax": 750,
+    "hasExtraCategories": true,
+    "applicabilityNotes": "仅按已核验的普通类招生类别匹配；其他类别不自动套用。"
   },
   {
     "province": "黑龙江",
@@ -237,7 +429,17 @@
           }
         ]
       }
-    ]
+    ],
+    "sourceUrl": "https://jyt.hlj.gov.cn/jyt/c110475/202606/c00_31952465.shtml",
+    "sourcePublishedAt": null,
+    "examMode": "3+1+2",
+    "applicableCategories": [
+      "历史类",
+      "物理类"
+    ],
+    "totalMax": 750,
+    "hasExtraCategories": true,
+    "applicabilityNotes": "仅按已核验的普通类招生类别匹配；其他类别不自动套用。"
   },
   {
     "province": "上海",
@@ -267,7 +469,16 @@
           }
         ]
       }
-    ]
+    ],
+    "sourceUrl": "https://www.shmeea.edu.cn/page/02200/20260623/20376.html",
+    "sourcePublishedAt": null,
+    "examMode": "3+3",
+    "applicableCategories": [
+      "普通类"
+    ],
+    "totalMax": 660,
+    "hasExtraCategories": true,
+    "applicabilityNotes": "仅按已核验的普通类招生类别匹配；其他类别不自动套用。"
   },
   {
     "province": "江苏",
@@ -317,14 +528,24 @@
           }
         ]
       }
-    ]
+    ],
+    "sourceUrl": "https://www.jiangsu.gov.cn/art/2026/6/25/art_60085_11794458.html",
+    "sourcePublishedAt": null,
+    "examMode": "3+1+2",
+    "applicableCategories": [
+      "历史类",
+      "物理类"
+    ],
+    "totalMax": 750,
+    "hasExtraCategories": true,
+    "applicabilityNotes": "仅按已核验的普通类招生类别匹配；其他类别不自动套用。"
   },
   {
     "province": "浙江",
     "year": 2026,
     "status": "verified",
     "checkedAt": "2026-10-20",
-    "reason": "已打开官方教育考试院、教育厅或政府教育信息页面，核对2026普通类本科与特殊类型分数。",
+    "reason": "已核对浙江省教育考试院2026年6月25日公告的普通类分段线表及特殊类型招生控制线。",
     "searchQuery": "2026 浙江 普通高考 本科 特殊类型 录取控制分数线",
     "records": [
       {
@@ -335,19 +556,28 @@
         "lines": [
           {
             "kind": "undergraduate",
-            "name": "普通类一段线",
+            "name": "普通类第一段分数线",
             "value": 494,
-            "sourceUrl": "https://www.zjzs.net/art/2026/6/25/art_155_12467.html"
+            "sourceUrl": "https://www.zjzs.net/art/2026/6/25/art_45_12449.html"
           },
           {
             "kind": "special",
-            "name": "特殊类型招生控制分数线",
+            "name": "特殊类型招生控制线",
             "value": 594,
-            "sourceUrl": "https://www.zjzs.net/art/2026/6/25/art_155_12467.html"
+            "sourceUrl": "https://www.zjzs.net/art/2026/6/25/art_45_12449.html"
           }
         ]
       }
-    ]
+    ],
+    "sourceUrl": "https://www.zjzs.net/art/2026/6/25/art_45_12449.html",
+    "sourcePublishedAt": "2026-06-25",
+    "examMode": "3+3",
+    "applicableCategories": [
+      "普通类"
+    ],
+    "totalMax": 750,
+    "hasExtraCategories": true,
+    "applicabilityNotes": "普通类第一段分数线不等于本科录取控制分数线，也不表示实际录取。"
   },
   {
     "province": "安徽",
@@ -357,7 +587,14 @@
     "reason": "官方公告分数表为图片，直接页面未能读取图表，未完成分数核验。",
     "searchQuery": "2026 安徽 普通高考 本科 特殊类型 录取控制分数线",
     "evidenceUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847624.html",
-    "records": []
+    "records": [],
+    "sourceUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847624.html",
+    "sourcePublishedAt": null,
+    "examMode": null,
+    "applicableCategories": [],
+    "totalMax": null,
+    "hasExtraCategories": true,
+    "applicabilityNotes": "仅按已核验的普通类招生类别匹配；其他类别不自动套用。"
   },
   {
     "province": "福建",
@@ -367,7 +604,14 @@
     "reason": "福建省教育考试院与省政府已发布2026公告，但分数表图片未完成读取核验。",
     "searchQuery": "2026 福建 普通高考 本科 特殊类型 录取控制分数线",
     "evidenceUrl": "https://www.eeafj.cn/gkptgkgsgg/20260624/14697.html",
-    "records": []
+    "records": [],
+    "sourceUrl": "https://www.eeafj.cn/gkptgkgsgg/20260624/14697.html",
+    "sourcePublishedAt": "2026-06-24",
+    "examMode": null,
+    "applicableCategories": [],
+    "totalMax": null,
+    "hasExtraCategories": true,
+    "applicabilityNotes": "仅按已核验的普通类招生类别匹配；其他类别不自动套用。"
   },
   {
     "province": "江西",
@@ -417,7 +661,17 @@
           }
         ]
       }
-    ]
+    ],
+    "sourceUrl": "https://www.jdz.gov.cn/zmhd/hygq/t1103149.shtml",
+    "sourcePublishedAt": null,
+    "examMode": "3+1+2",
+    "applicableCategories": [
+      "历史类",
+      "物理类"
+    ],
+    "totalMax": 750,
+    "hasExtraCategories": true,
+    "applicabilityNotes": "仅按已核验的普通类招生类别匹配；其他类别不自动套用。"
   },
   {
     "province": "山东",
@@ -447,7 +701,16 @@
           }
         ]
       }
-    ]
+    ],
+    "sourceUrl": "https://www.sdzk.cn/Floadup/file/20260625/6391799576812677817426225.pdf",
+    "sourcePublishedAt": null,
+    "examMode": "3+3",
+    "applicableCategories": [
+      "普通类"
+    ],
+    "totalMax": 750,
+    "hasExtraCategories": true,
+    "applicabilityNotes": "仅普通类；一段线不等于本科录取控制分数线，也不表示实际录取。"
   },
   {
     "province": "河南",
@@ -497,7 +760,17 @@
           }
         ]
       }
-    ]
+    ],
+    "sourceUrl": "https://news.zzedu.net.cn/xdxw/06/34187582.shtml",
+    "sourcePublishedAt": null,
+    "examMode": "3+1+2",
+    "applicableCategories": [
+      "历史类",
+      "物理类"
+    ],
+    "totalMax": 750,
+    "hasExtraCategories": true,
+    "applicabilityNotes": "仅按已核验的普通类招生类别匹配；其他类别不自动套用。"
   },
   {
     "province": "湖北",
@@ -549,7 +822,17 @@
           }
         ]
       }
-    ]
+    ],
+    "sourceUrl": "https://jyt.hubei.gov.cn/bmdt/gxhptlm/mtjj/202606/t20260626_5965216.shtml",
+    "sourcePublishedAt": null,
+    "examMode": "3+1+2",
+    "applicableCategories": [
+      "历史类",
+      "物理类"
+    ],
+    "totalMax": 750,
+    "hasExtraCategories": true,
+    "applicabilityNotes": "仅按已核验的普通类招生类别匹配；其他类别不自动套用。"
   },
   {
     "province": "湖南",
@@ -601,7 +884,17 @@
           }
         ]
       }
-    ]
+    ],
+    "sourceUrl": "https://jyt.hunan.gov.cn/jyt/sjyt/hnsjyksy/web/ksyzkzx/202606/t20260625_34013270.html",
+    "sourcePublishedAt": null,
+    "examMode": "3+1+2",
+    "applicableCategories": [
+      "历史类",
+      "物理类"
+    ],
+    "totalMax": 750,
+    "hasExtraCategories": true,
+    "applicabilityNotes": "仅按已核验的普通类招生类别匹配；其他类别不自动套用。"
   },
   {
     "province": "广东",
@@ -653,7 +946,17 @@
           }
         ]
       }
-    ]
+    ],
+    "sourceUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260624/2293844454.html",
+    "sourcePublishedAt": null,
+    "examMode": "3+1+2",
+    "applicableCategories": [
+      "历史类",
+      "物理类"
+    ],
+    "totalMax": 750,
+    "hasExtraCategories": true,
+    "applicabilityNotes": "仅按已核验的普通类招生类别匹配；其他类别不自动套用。"
   },
   {
     "province": "广西",
@@ -706,7 +1009,17 @@
           }
         ]
       }
-    ]
+    ],
+    "sourceUrl": "https://gaokao.chsi.com.cn/z/gkbmfslq/pcx.jsp?pageId=361",
+    "sourcePublishedAt": null,
+    "examMode": "3+1+2",
+    "applicableCategories": [
+      "历史类",
+      "物理类"
+    ],
+    "totalMax": 750,
+    "hasExtraCategories": true,
+    "applicabilityNotes": "仅按已核验的普通类招生类别匹配；其他类别不自动套用。"
   },
   {
     "province": "海南",
@@ -738,7 +1051,16 @@
           }
         ]
       }
-    ]
+    ],
+    "sourceUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202607/20260702/2293870306.html",
+    "sourcePublishedAt": null,
+    "examMode": "3+3",
+    "applicableCategories": [
+      "普通类"
+    ],
+    "totalMax": 900,
+    "hasExtraCategories": true,
+    "applicabilityNotes": "900分标准分不可与150分外语原始分直接相加。"
   },
   {
     "province": "重庆",
@@ -790,7 +1112,17 @@
           }
         ]
       }
-    ]
+    ],
+    "sourceUrl": "https://jw.cq.gov.cn/zwxx_209/gggs/202606/t20260624_15774338.html",
+    "sourcePublishedAt": null,
+    "examMode": "3+1+2",
+    "applicableCategories": [
+      "历史类",
+      "物理类"
+    ],
+    "totalMax": 750,
+    "hasExtraCategories": true,
+    "applicabilityNotes": "仅按已核验的普通类招生类别匹配；其他类别不自动套用。"
   },
   {
     "province": "四川",
@@ -842,7 +1174,17 @@
           }
         ]
       }
-    ]
+    ],
+    "sourceUrl": "https://www.sceea.cn/Html/202606/Newsdetail_4853.html",
+    "sourcePublishedAt": null,
+    "examMode": "3+1+2",
+    "applicableCategories": [
+      "历史类",
+      "物理类"
+    ],
+    "totalMax": 750,
+    "hasExtraCategories": true,
+    "applicabilityNotes": "仅按已核验的普通类招生类别匹配；其他类别不自动套用。"
   },
   {
     "province": "贵州",
@@ -894,7 +1236,17 @@
           }
         ]
       }
-    ]
+    ],
+    "sourceUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847640.html",
+    "sourcePublishedAt": null,
+    "examMode": "3+1+2",
+    "applicableCategories": [
+      "历史类",
+      "物理类"
+    ],
+    "totalMax": 750,
+    "hasExtraCategories": true,
+    "applicabilityNotes": "仅按已核验的普通类招生类别匹配；其他类别不自动套用。"
   },
   {
     "province": "云南",
@@ -947,16 +1299,155 @@
           }
         ]
       }
-    ]
+    ],
+    "sourceUrl": "https://gaokao.chsi.com.cn/z/gkbmfslq/pcx.jsp?pageId=361",
+    "sourcePublishedAt": null,
+    "examMode": "3+1+2",
+    "applicableCategories": [
+      "历史类",
+      "物理类"
+    ],
+    "totalMax": 750,
+    "hasExtraCategories": true,
+    "applicabilityNotes": "仅按已核验的普通类招生类别匹配；其他类别不自动套用。"
   },
   {
     "province": "西藏",
     "year": 2026,
-    "status": "unverified",
+    "status": "verified",
     "checkedAt": "2026-10-20",
-    "reason": "检索到2026分数线，但区内A/B类考生、西藏班校及本科一二批必须区分；当前普通类别模型不能完整表达，不能把本科一批线冒充特控线，故不预置。",
+    "reason": "西藏自治区政府网站公布2026年6月25日自治区教育考试院分数线，2026招生规定核对750分总分与外语150分。仅启用普通生源A/B及文理一二批。",
     "searchQuery": "2026 西藏自治区 普通高等学校招生 录取最低控制分数线 教育厅",
-    "records": []
+    "records": [
+      {
+        "category": "文史类·A类·本科一批",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始分",
+        "lines": [
+          {
+            "kind": "higher",
+            "name": "普通生源招生录取最低控制分数线（文史类A类考生本科一批）",
+            "value": 330,
+            "sourceUrl": "https://www.xizang.gov.cn/xwzx_406/bmkx/202606/t20260626_547152.html"
+          }
+        ]
+      },
+      {
+        "category": "文史类·A类·本科二批",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始分",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通生源招生录取最低控制分数线（文史类A类考生本科二批）",
+            "value": 294,
+            "sourceUrl": "https://www.xizang.gov.cn/xwzx_406/bmkx/202606/t20260626_547152.html"
+          }
+        ]
+      },
+      {
+        "category": "文史类·B类·本科一批",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始分",
+        "lines": [
+          {
+            "kind": "higher",
+            "name": "普通生源招生录取最低控制分数线（文史类B类考生本科一批）",
+            "value": 400,
+            "sourceUrl": "https://www.xizang.gov.cn/xwzx_406/bmkx/202606/t20260626_547152.html"
+          }
+        ]
+      },
+      {
+        "category": "文史类·B类·本科二批",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始分",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通生源招生录取最低控制分数线（文史类B类考生本科二批）",
+            "value": 304,
+            "sourceUrl": "https://www.xizang.gov.cn/xwzx_406/bmkx/202606/t20260626_547152.html"
+          }
+        ]
+      },
+      {
+        "category": "理工类·A类·本科一批",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始分",
+        "lines": [
+          {
+            "kind": "higher",
+            "name": "普通生源招生录取最低控制分数线（理工类A类考生本科一批）",
+            "value": 300,
+            "sourceUrl": "https://www.xizang.gov.cn/xwzx_406/bmkx/202606/t20260626_547152.html"
+          }
+        ]
+      },
+      {
+        "category": "理工类·A类·本科二批",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始分",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通生源招生录取最低控制分数线（理工类A类考生本科二批）",
+            "value": 260,
+            "sourceUrl": "https://www.xizang.gov.cn/xwzx_406/bmkx/202606/t20260626_547152.html"
+          }
+        ]
+      },
+      {
+        "category": "理工类·B类·本科一批",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始分",
+        "lines": [
+          {
+            "kind": "higher",
+            "name": "普通生源招生录取最低控制分数线（理工类B类考生本科一批）",
+            "value": 400,
+            "sourceUrl": "https://www.xizang.gov.cn/xwzx_406/bmkx/202606/t20260626_547152.html"
+          }
+        ]
+      },
+      {
+        "category": "理工类·B类·本科二批",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始分",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通生源招生录取最低控制分数线（理工类B类考生本科二批）",
+            "value": 300,
+            "sourceUrl": "https://www.xizang.gov.cn/xwzx_406/bmkx/202606/t20260626_547152.html"
+          }
+        ]
+      }
+    ],
+    "sourceUrl": "https://www.xizang.gov.cn/xwzx_406/bmkx/202606/t20260626_547152.html",
+    "sourcePublishedAt": "2026-06-26",
+    "examMode": "传统文理",
+    "applicableCategories": [
+      "文史类·A类·本科一批",
+      "文史类·A类·本科二批",
+      "文史类·B类·本科一批",
+      "文史类·B类·本科二批",
+      "理工类·A类·本科一批",
+      "理工类·A类·本科二批",
+      "理工类·B类·本科一批",
+      "理工类·B类·本科二批"
+    ],
+    "totalMax": 750,
+    "hasExtraCategories": true,
+    "applicabilityNotes": "仅普通生源；须同时明确文史/理工、A/B类、本科一/二批。两批线分别比较，不把本科一批线称为特控线。"
   },
   {
     "province": "陕西",
@@ -1008,7 +1499,17 @@
           }
         ]
       }
-    ]
+    ],
+    "sourceUrl": "https://www.sneea.cn/info/1027/17649.htm",
+    "sourcePublishedAt": null,
+    "examMode": "3+1+2",
+    "applicableCategories": [
+      "历史类",
+      "物理类"
+    ],
+    "totalMax": 750,
+    "hasExtraCategories": true,
+    "applicabilityNotes": "仅按已核验的普通类招生类别匹配；其他类别不自动套用。"
   },
   {
     "province": "甘肃",
@@ -1061,7 +1562,17 @@
           }
         ]
       }
-    ]
+    ],
+    "sourceUrl": "https://gaokao.chsi.com.cn/z/gkbmfslq/pcx.jsp?pageId=361",
+    "sourcePublishedAt": null,
+    "examMode": "3+1+2",
+    "applicableCategories": [
+      "历史类",
+      "物理类"
+    ],
+    "totalMax": 750,
+    "hasExtraCategories": true,
+    "applicabilityNotes": "仅按已核验的普通类招生类别匹配；其他类别不自动套用。"
   },
   {
     "province": "青海",
@@ -1114,7 +1625,17 @@
           }
         ]
       }
-    ]
+    ],
+    "sourceUrl": "https://gaokao.chsi.com.cn/z/gkbmfslq/pcx.jsp?pageId=361",
+    "sourcePublishedAt": null,
+    "examMode": "3+1+2",
+    "applicableCategories": [
+      "历史类",
+      "物理类"
+    ],
+    "totalMax": 750,
+    "hasExtraCategories": true,
+    "applicabilityNotes": "仅按已核验的普通类招生类别匹配；其他类别不自动套用。"
   },
   {
     "province": "宁夏",
@@ -1166,16 +1687,95 @@
           }
         ]
       }
-    ]
+    ],
+    "sourceUrl": "https://www.yinchuan.gov.cn/xwzx/mrdt/202606/t20260626_5274697.html",
+    "sourcePublishedAt": null,
+    "examMode": "3+1+2",
+    "applicableCategories": [
+      "历史类",
+      "物理类"
+    ],
+    "totalMax": 750,
+    "hasExtraCategories": true,
+    "applicabilityNotes": "仅按已核验的普通类招生类别匹配；其他类别不自动套用。"
   },
   {
     "province": "新疆",
     "year": 2026,
-    "status": "unverified",
+    "status": "verified",
     "checkedAt": "2026-10-20",
-    "reason": "已定位新疆教育考试院2026公告，但普通类/单列类以及本科一二批需要专门匹配；未读取官方图片全部分类，不把一本线冒充特控线，故不预置。",
+    "reason": "新疆教育考试院2026年6月24日正式公告已定位；教育部阳光高考2026批次线表核对普通类文史/理工本科一批、二批数值。单列类及其他特殊类别未录入，不能混用。",
     "searchQuery": "2026 新疆 普通高校招生 各批次 最低投档控制分数线 教育考试院",
     "announcementUrl": "https://www.xjzk.gov.cn/c/2026-06-24/495382.shtml",
-    "records": []
+    "records": [
+      {
+        "category": "文史类·本科一批",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始分",
+        "lines": [
+          {
+            "kind": "higher",
+            "name": "普通类文史类本科一批最低投档控制分数线",
+            "value": 451,
+            "sourceUrl": "https://gaokao.chsi.com.cn/z/gkbmfslq/pcx.jsp?pageId=361"
+          }
+        ]
+      },
+      {
+        "category": "文史类·本科二批",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始分",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通类文史类本科二批最低投档控制分数线",
+            "value": 315,
+            "sourceUrl": "https://gaokao.chsi.com.cn/z/gkbmfslq/pcx.jsp?pageId=361"
+          }
+        ]
+      },
+      {
+        "category": "理工类·本科一批",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始分",
+        "lines": [
+          {
+            "kind": "higher",
+            "name": "普通类理工类本科一批最低投档控制分数线",
+            "value": 468,
+            "sourceUrl": "https://gaokao.chsi.com.cn/z/gkbmfslq/pcx.jsp?pageId=361"
+          }
+        ]
+      },
+      {
+        "category": "理工类·本科二批",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始分",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通类理工类本科二批最低投档控制分数线",
+            "value": 304,
+            "sourceUrl": "https://gaokao.chsi.com.cn/z/gkbmfslq/pcx.jsp?pageId=361"
+          }
+        ]
+      }
+    ],
+    "sourceUrl": "https://www.xjzk.gov.cn/c/2026-06-24/495382.shtml",
+    "sourcePublishedAt": "2026-06-24",
+    "examMode": "传统文理",
+    "applicableCategories": [
+      "文史类·本科一批",
+      "文史类·本科二批",
+      "理工类·本科一批",
+      "理工类·本科二批"
+    ],
+    "totalMax": 750,
+    "hasExtraCategories": true,
+    "applicabilityNotes": "仅普通类文史、理工本科一批和二批；单列类分数线未完整核验，不启用。不存在统一特殊类型控制线。"
   }
 ]
