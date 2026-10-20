@@ -1,0 +1,1181 @@
+[
+  {
+    "province": "北京",
+    "year": 2026,
+    "status": "verified",
+    "checkedAt": "2026-10-20",
+    "reason": "已打开官方教育考试院、教育厅或政府教育信息页面，核对2026普通类本科与特殊类型分数。",
+    "searchQuery": "2026 北京 普通高考 本科 特殊类型 录取控制分数线",
+    "records": [
+      {
+        "category": "普通类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 429,
+            "sourceUrl": "https://bjksb.bjeea.cn/html/gkgz/tzgg/2026/0624/88239.html"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型招生控制分数线",
+            "value": 521,
+            "sourceUrl": "https://bjksb.bjeea.cn/html/gkgz/tzgg/2026/0624/88239.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "province": "天津",
+    "year": 2026,
+    "status": "verified",
+    "checkedAt": "2026-10-20",
+    "reason": "已打开官方教育考试院、教育厅或政府教育信息页面，核对2026普通类本科与特殊类型分数。",
+    "searchQuery": "2026 天津 普通高考 本科 特殊类型 录取控制分数线",
+    "records": [
+      {
+        "category": "普通类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 458,
+            "sourceUrl": "https://www.tj.gov.cn/zmhd/hygqx/202606/t20260624_7323009.html"
+          },
+          {
+            "kind": "special",
+            "name": "高校特殊类型资格考生最低录取控制参考线",
+            "value": 547,
+            "sourceUrl": "https://www.tj.gov.cn/zmhd/hygqx/202606/t20260624_7323009.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "province": "河北",
+    "year": 2026,
+    "status": "verified",
+    "checkedAt": "2026-10-20",
+    "reason": "已打开官方教育考试院、教育厅或政府教育信息页面，核对2026普通类本科与特殊类型分数。",
+    "searchQuery": "2026 河北 普通高考 本科 特殊类型 录取控制分数线",
+    "records": [
+      {
+        "category": "历史类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 485,
+            "sourceUrl": "https://www.sjz.gov.cn/columns/839b1981-330e-4901-aba5-6c392154ce03/202606/25/78edbaa2-97c9-4e68-b156-680ad439ea21.html"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型招生控制分数线",
+            "value": 542,
+            "sourceUrl": "https://www.sjz.gov.cn/columns/839b1981-330e-4901-aba5-6c392154ce03/202606/25/78edbaa2-97c9-4e68-b156-680ad439ea21.html"
+          }
+        ]
+      },
+      {
+        "category": "物理类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 443,
+            "sourceUrl": "https://www.sjz.gov.cn/columns/839b1981-330e-4901-aba5-6c392154ce03/202606/25/78edbaa2-97c9-4e68-b156-680ad439ea21.html"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型招生控制分数线",
+            "value": 510,
+            "sourceUrl": "https://www.sjz.gov.cn/columns/839b1981-330e-4901-aba5-6c392154ce03/202606/25/78edbaa2-97c9-4e68-b156-680ad439ea21.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "province": "山西",
+    "year": 2026,
+    "status": "unverified",
+    "checkedAt": "2026-10-20",
+    "reason": "教育部阳光高考索引有2026公告全文；直接打开仅返回输入框，未完成正文核验。",
+    "searchQuery": "2026 山西 普通高考 本科 特殊类型 录取控制分数线",
+    "evidenceUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847661.html",
+    "records": []
+  },
+  {
+    "province": "内蒙古",
+    "year": 2026,
+    "status": "unverified",
+    "checkedAt": "2026-10-20",
+    "reason": "教育部阳光高考索引有2026普通类分数；直接打开仅返回输入框，未完成正文核验，未采用专项类别。",
+    "searchQuery": "2026 内蒙古 普通高考 本科 特殊类型 录取控制分数线",
+    "evidenceUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260624/2293846506.html",
+    "records": []
+  },
+  {
+    "province": "辽宁",
+    "year": 2026,
+    "status": "verified",
+    "checkedAt": "2026-10-20",
+    "reason": "已打开官方教育考试院、教育厅或政府教育信息页面，核对2026普通类本科与特殊类型分数。",
+    "searchQuery": "2026 辽宁 普通高考 本科 特殊类型 录取控制分数线",
+    "records": [
+      {
+        "category": "历史类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 442,
+            "sourceUrl": "https://jyt.ln.gov.cn/jyt/jyzx/jyyw/2026063013492555300/index.shtml"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型招生控制分数线",
+            "value": 527,
+            "sourceUrl": "https://jyt.ln.gov.cn/jyt/jyzx/jyyw/2026063013492555300/index.shtml"
+          }
+        ]
+      },
+      {
+        "category": "物理类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 344,
+            "sourceUrl": "https://jyt.ln.gov.cn/jyt/jyzx/jyyw/2026063013492555300/index.shtml"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型招生控制分数线",
+            "value": 508,
+            "sourceUrl": "https://jyt.ln.gov.cn/jyt/jyzx/jyyw/2026063013492555300/index.shtml"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "province": "吉林",
+    "year": 2026,
+    "status": "unverified",
+    "checkedAt": "2026-10-20",
+    "reason": "教育部阳光高考索引有2026公告全文；直接打开仅返回输入框，未完成正文核验。",
+    "searchQuery": "2026 吉林 普通高考 本科 特殊类型 录取控制分数线",
+    "evidenceUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847517.html",
+    "records": []
+  },
+  {
+    "province": "黑龙江",
+    "year": 2026,
+    "status": "verified",
+    "checkedAt": "2026-10-20",
+    "reason": "已打开官方教育考试院、教育厅或政府教育信息页面，核对2026普通类本科与特殊类型分数。",
+    "searchQuery": "2026 黑龙江 普通高考 本科 特殊类型 录取控制分数线",
+    "records": [
+      {
+        "category": "历史类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 385,
+            "sourceUrl": "https://jyt.hlj.gov.cn/jyt/c110475/202606/c00_31952465.shtml"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型招生资格线",
+            "value": 466,
+            "sourceUrl": "https://jyt.hlj.gov.cn/jyt/c110475/202606/c00_31952465.shtml"
+          }
+        ]
+      },
+      {
+        "category": "物理类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 340,
+            "sourceUrl": "https://jyt.hlj.gov.cn/jyt/c110475/202606/c00_31952465.shtml"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型招生资格线",
+            "value": 464,
+            "sourceUrl": "https://jyt.hlj.gov.cn/jyt/c110475/202606/c00_31952465.shtml"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "province": "上海",
+    "year": 2026,
+    "status": "verified",
+    "checkedAt": "2026-10-20",
+    "reason": "已打开官方教育考试院、教育厅或政府教育信息页面，核对2026普通类本科与特殊类型分数。",
+    "searchQuery": "2026 上海 普通高考 本科 特殊类型 录取控制分数线",
+    "records": [
+      {
+        "category": "普通类",
+        "totalMax": 660,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 403,
+            "sourceUrl": "https://www.shmeea.edu.cn/page/02200/20260623/20376.html"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型招生控制分数线",
+            "value": 504,
+            "sourceUrl": "https://www.shmeea.edu.cn/page/02200/20260623/20376.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "province": "江苏",
+    "year": 2026,
+    "status": "verified",
+    "checkedAt": "2026-10-20",
+    "reason": "已打开官方教育考试院、教育厅或政府教育信息页面，核对2026普通类本科与特殊类型分数。",
+    "searchQuery": "2026 江苏 普通高考 本科 特殊类型 录取控制分数线",
+    "records": [
+      {
+        "category": "历史类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 484,
+            "sourceUrl": "https://www.jiangsu.gov.cn/art/2026/6/25/art_60085_11794458.html"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型招生控制分数线",
+            "value": 532,
+            "sourceUrl": "https://www.jiangsu.gov.cn/art/2026/6/25/art_60085_11794458.html"
+          }
+        ]
+      },
+      {
+        "category": "物理类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 456,
+            "sourceUrl": "https://www.jiangsu.gov.cn/art/2026/6/25/art_60085_11794458.html"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型招生控制分数线",
+            "value": 513,
+            "sourceUrl": "https://www.jiangsu.gov.cn/art/2026/6/25/art_60085_11794458.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "province": "浙江",
+    "year": 2026,
+    "status": "verified",
+    "checkedAt": "2026-10-20",
+    "reason": "已打开官方教育考试院、教育厅或政府教育信息页面，核对2026普通类本科与特殊类型分数。",
+    "searchQuery": "2026 浙江 普通高考 本科 特殊类型 录取控制分数线",
+    "records": [
+      {
+        "category": "普通类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通类一段线",
+            "value": 494,
+            "sourceUrl": "https://www.zjzs.net/art/2026/6/25/art_155_12467.html"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型招生控制分数线",
+            "value": 594,
+            "sourceUrl": "https://www.zjzs.net/art/2026/6/25/art_155_12467.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "province": "安徽",
+    "year": 2026,
+    "status": "unverified",
+    "checkedAt": "2026-10-20",
+    "reason": "官方公告分数表为图片，直接页面未能读取图表，未完成分数核验。",
+    "searchQuery": "2026 安徽 普通高考 本科 特殊类型 录取控制分数线",
+    "evidenceUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847624.html",
+    "records": []
+  },
+  {
+    "province": "福建",
+    "year": 2026,
+    "status": "unverified",
+    "checkedAt": "2026-10-20",
+    "reason": "福建省教育考试院与省政府已发布2026公告，但分数表图片未完成读取核验。",
+    "searchQuery": "2026 福建 普通高考 本科 特殊类型 录取控制分数线",
+    "evidenceUrl": "https://www.eeafj.cn/gkptgkgsgg/20260624/14697.html",
+    "records": []
+  },
+  {
+    "province": "江西",
+    "year": 2026,
+    "status": "verified",
+    "checkedAt": "2026-10-20",
+    "reason": "已打开官方教育考试院、教育厅或政府教育信息页面，核对2026普通类本科与特殊类型分数。",
+    "searchQuery": "2026 江西 普通高考 本科 特殊类型 录取控制分数线",
+    "records": [
+      {
+        "category": "历史类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 479,
+            "sourceUrl": "https://www.jdz.gov.cn/zmhd/hygq/t1103149.shtml"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型招生控制分数线",
+            "value": 535,
+            "sourceUrl": "https://www.jdz.gov.cn/zmhd/hygq/t1103149.shtml"
+          }
+        ]
+      },
+      {
+        "category": "物理类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 412,
+            "sourceUrl": "https://www.jdz.gov.cn/zmhd/hygq/t1103149.shtml"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型招生控制分数线",
+            "value": 505,
+            "sourceUrl": "https://www.jdz.gov.cn/zmhd/hygq/t1103149.shtml"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "province": "山东",
+    "year": 2026,
+    "status": "verified",
+    "checkedAt": "2026-10-20",
+    "reason": "山东省教育招生考试院2026官方PDF搜索索引明确列示普通类442与525；直接打开失败。父任务已提供同一官方PDF核验结果。",
+    "searchQuery": "2026 山东 普通高考 本科 特殊类型 录取控制分数线",
+    "records": [
+      {
+        "category": "普通类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通类一段线",
+            "value": 442,
+            "sourceUrl": "https://www.sdzk.cn/Floadup/file/20260625/6391799576812677817426225.pdf"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型招生控制分数线",
+            "value": 525,
+            "sourceUrl": "https://www.sdzk.cn/Floadup/file/20260625/6391799576812677817426225.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "province": "河南",
+    "year": 2026,
+    "status": "verified",
+    "checkedAt": "2026-10-20",
+    "reason": "已打开官方教育考试院、教育厅或政府教育信息页面，核对2026普通类本科与特殊类型分数。",
+    "searchQuery": "2026 河南 普通高考 本科 特殊类型 录取控制分数线",
+    "records": [
+      {
+        "category": "历史类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 459,
+            "sourceUrl": "https://news.zzedu.net.cn/xdxw/06/34187582.shtml"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型招生控制分数线",
+            "value": 534,
+            "sourceUrl": "https://news.zzedu.net.cn/xdxw/06/34187582.shtml"
+          }
+        ]
+      },
+      {
+        "category": "物理类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 419,
+            "sourceUrl": "https://news.zzedu.net.cn/xdxw/06/34187582.shtml"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型招生控制分数线",
+            "value": 513,
+            "sourceUrl": "https://news.zzedu.net.cn/xdxw/06/34187582.shtml"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "province": "湖北",
+    "year": 2026,
+    "status": "verified",
+    "checkedAt": "2026-10-20",
+    "reason": "湖北省教育厅页面文字已打开核对2026普通类本科与本科特殊招生线。",
+    "searchQuery": "湖北 2026 普通高考 本科 特殊类型 录取控制分数线 教育考试院",
+    "records": [
+      {
+        "category": "历史类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "scoreSourceUrl": "https://www.hbea.edu.cn/html/2025-10/15457.html",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 443,
+            "sourceUrl": "https://jyt.hubei.gov.cn/bmdt/gxhptlm/mtjj/202606/t20260626_5965216.shtml"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型招生录取控制分数线",
+            "value": 532,
+            "sourceUrl": "https://jyt.hubei.gov.cn/bmdt/gxhptlm/mtjj/202606/t20260626_5965216.shtml"
+          }
+        ]
+      },
+      {
+        "category": "物理类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "scoreSourceUrl": "https://www.hbea.edu.cn/html/2025-10/15457.html",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 435,
+            "sourceUrl": "https://jyt.hubei.gov.cn/bmdt/gxhptlm/mtjj/202606/t20260626_5965216.shtml"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型招生录取控制分数线",
+            "value": 529,
+            "sourceUrl": "https://jyt.hubei.gov.cn/bmdt/gxhptlm/mtjj/202606/t20260626_5965216.shtml"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "province": "湖南",
+    "year": 2026,
+    "status": "verified",
+    "checkedAt": "2026-10-20",
+    "reason": "湖南省教育考试院2026新闻发布会公告，已打开核验。",
+    "searchQuery": "湖南 2026 普通高考 本科 特殊类型 录取控制分数线 教育考试院",
+    "records": [
+      {
+        "category": "历史类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "scoreSourceUrl": "https://jyt.hunan.gov.cn/jyt/sjyt/hnsjyksy/web/ksyzkzx/202606/t20260616_34004507.html",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 446,
+            "sourceUrl": "https://jyt.hunan.gov.cn/jyt/sjyt/hnsjyksy/web/ksyzkzx/202606/t20260625_34013270.html"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型招生录取控制分数线",
+            "value": 494,
+            "sourceUrl": "https://jyt.hunan.gov.cn/jyt/sjyt/hnsjyksy/web/ksyzkzx/202606/t20260625_34013270.html"
+          }
+        ]
+      },
+      {
+        "category": "物理类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "scoreSourceUrl": "https://jyt.hunan.gov.cn/jyt/sjyt/hnsjyksy/web/ksyzkzx/202606/t20260616_34004507.html",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 400,
+            "sourceUrl": "https://jyt.hunan.gov.cn/jyt/sjyt/hnsjyksy/web/ksyzkzx/202606/t20260625_34013270.html"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型招生录取控制分数线",
+            "value": 481,
+            "sourceUrl": "https://jyt.hunan.gov.cn/jyt/sjyt/hnsjyksy/web/ksyzkzx/202606/t20260625_34013270.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "province": "广东",
+    "year": 2026,
+    "status": "verified",
+    "checkedAt": "2026-10-20",
+    "reason": "教育部阳光高考官方转载，明确2026年、来源广东省教育考试院；数值据官方搜索索引文字核对，打开正文受限。本科线另与深圳市政府页面核对。",
+    "searchQuery": "广东 2026 普通高考 本科 特殊类型 录取控制分数线 教育考试院",
+    "records": [
+      {
+        "category": "历史类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "scoreSourceUrl": "https://szeb.sz.gov.cn/attachment/1/1713/1713627/12781791.pdf",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 440,
+            "sourceUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260624/2293844454.html"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型招生录取控制分数线",
+            "value": 546,
+            "sourceUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260624/2293844454.html"
+          }
+        ]
+      },
+      {
+        "category": "物理类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "scoreSourceUrl": "https://szeb.sz.gov.cn/attachment/1/1713/1713627/12781791.pdf",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 425,
+            "sourceUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260624/2293844454.html"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型招生录取控制分数线",
+            "value": 539,
+            "sourceUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260624/2293844454.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "province": "广西",
+    "year": 2026,
+    "status": "verified",
+    "checkedAt": "2026-10-20",
+    "reason": "广西招生考试院2026公告定位成功但图片正文未读取；数值以教育部阳光高考2026官方汇总文字核验，未使用媒体数值作为唯一证据。",
+    "searchQuery": "广西 2026 普通高考 本科 特殊类型 录取控制分数线 教育考试院",
+    "announcementUrl": "https://www.gxeea.cn/view/content_619_32889.htm",
+    "records": [
+      {
+        "category": "历史类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "scoreSourceUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260605/2293582513.html",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 398,
+            "sourceUrl": "https://gaokao.chsi.com.cn/z/gkbmfslq/pcx.jsp?pageId=361"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型招生录取控制分数线",
+            "value": 520,
+            "sourceUrl": "https://gaokao.chsi.com.cn/z/gkbmfslq/pcx.jsp?pageId=361"
+          }
+        ]
+      },
+      {
+        "category": "物理类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "scoreSourceUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260605/2293582513.html",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 368,
+            "sourceUrl": "https://gaokao.chsi.com.cn/z/gkbmfslq/pcx.jsp?pageId=361"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型招生录取控制分数线",
+            "value": 510,
+            "sourceUrl": "https://gaokao.chsi.com.cn/z/gkbmfslq/pcx.jsp?pageId=361"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "province": "海南",
+    "year": 2026,
+    "status": "verified",
+    "checkedAt": "2026-10-20",
+    "reason": "教育部阳光高考官方转载海南2026本科志愿填报告明确本科479、特殊类型568；标准分900制已核对。englishMax=150仅指原始试卷满分，与900综合标准分不能直接减加，必须禁用简单外语替换模型。",
+    "searchQuery": "海南 2026 本科 特殊类型 479 568 标准分 考试局",
+    "records": [
+      {
+        "category": "普通类",
+        "totalMax": 900,
+        "englishMax": 150,
+        "scoreSystem": "标准分",
+        "scoreSourceUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202605/20260529/2293505726-5.html",
+        "englishScoreSourceUrl": "https://www.moe.gov.cn/jyb_xwfb/s5147/201603/t20160321_234540.html",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "本科批录取最低控制分数线",
+            "value": 479,
+            "sourceUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202607/20260702/2293870306.html"
+          },
+          {
+            "kind": "special",
+            "name": "部分特殊类型招生投档最低控制分数线",
+            "value": 568,
+            "sourceUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202607/20260702/2293870306.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "province": "重庆",
+    "year": 2026,
+    "status": "verified",
+    "checkedAt": "2026-10-20",
+    "reason": "重庆市教育委员会2026分数线公告官方索引含完整表格，与重庆市政府新闻相符；打开正文受限。",
+    "searchQuery": "重庆 2026 普通高考 本科 特殊类型 录取控制分数线 教育考试院",
+    "records": [
+      {
+        "category": "历史类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "scoreSourceUrl": "https://jw.cq.gov.cn/zwgk/zfxxgkml/zcwj/gfxwj/202604/W020260518510080673967.pdf",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 415,
+            "sourceUrl": "https://jw.cq.gov.cn/zwxx_209/gggs/202606/t20260624_15774338.html"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型资格线",
+            "value": 510,
+            "sourceUrl": "https://jw.cq.gov.cn/zwxx_209/gggs/202606/t20260624_15774338.html"
+          }
+        ]
+      },
+      {
+        "category": "物理类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "scoreSourceUrl": "https://jw.cq.gov.cn/zwgk/zfxxgkml/zcwj/gfxwj/202604/W020260518510080673967.pdf",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 406,
+            "sourceUrl": "https://jw.cq.gov.cn/zwxx_209/gggs/202606/t20260624_15774338.html"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型资格线",
+            "value": 496,
+            "sourceUrl": "https://jw.cq.gov.cn/zwxx_209/gggs/202606/t20260624_15774338.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "province": "四川",
+    "year": 2026,
+    "status": "verified",
+    "checkedAt": "2026-10-20",
+    "reason": "四川省教育考试院2026公告官方索引含完整数值；打开正文超时。",
+    "searchQuery": "四川 2026 普通高考 本科 特殊类型 录取控制分数线 教育考试院",
+    "records": [
+      {
+        "category": "历史类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "scoreSourceUrl": "https://www.sceea.cn/Html/202604/Newsdetail_4767.html",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 455,
+            "sourceUrl": "https://www.sceea.cn/Html/202606/Newsdetail_4853.html"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型招生录取控制分数线",
+            "value": 525,
+            "sourceUrl": "https://www.sceea.cn/Html/202606/Newsdetail_4853.html"
+          }
+        ]
+      },
+      {
+        "category": "物理类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "scoreSourceUrl": "https://www.sceea.cn/Html/202604/Newsdetail_4767.html",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 435,
+            "sourceUrl": "https://www.sceea.cn/Html/202606/Newsdetail_4853.html"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型招生录取控制分数线",
+            "value": 519,
+            "sourceUrl": "https://www.sceea.cn/Html/202606/Newsdetail_4853.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "province": "贵州",
+    "year": 2026,
+    "status": "verified",
+    "checkedAt": "2026-10-20",
+    "reason": "教育部阳光高考官方转载，明确2026年、来源贵州省招生考试院；数值据官方索引完整文字核验，打开正文受限。",
+    "searchQuery": "贵州 2026 普通高考 本科 特殊类型 录取控制分数线 教育考试院",
+    "records": [
+      {
+        "category": "历史类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "scoreSourceUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202604/20260414/2293468279-6.html",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 439,
+            "sourceUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847640.html"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型录取资格线",
+            "value": 503,
+            "sourceUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847640.html"
+          }
+        ]
+      },
+      {
+        "category": "物理类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "scoreSourceUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202604/20260414/2293468279-6.html",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 393,
+            "sourceUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847640.html"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型录取资格线",
+            "value": 494,
+            "sourceUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847640.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "province": "云南",
+    "year": 2026,
+    "status": "verified",
+    "checkedAt": "2026-10-20",
+    "reason": "教育部阳光高考2026官方汇总文字已核对；同平台2026省招生考试院公告为图片，未直接读取图片。",
+    "searchQuery": "云南 2026 普通高考 本科 特殊类型 录取控制分数线 教育考试院",
+    "announcementUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847730.html",
+    "records": [
+      {
+        "category": "历史类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "scoreSourceUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260629/2293848519.html",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 465,
+            "sourceUrl": "https://gaokao.chsi.com.cn/z/gkbmfslq/pcx.jsp?pageId=361"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型录取资格线",
+            "value": 545,
+            "sourceUrl": "https://gaokao.chsi.com.cn/z/gkbmfslq/pcx.jsp?pageId=361"
+          }
+        ]
+      },
+      {
+        "category": "物理类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "scoreSourceUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260629/2293848519.html",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 435,
+            "sourceUrl": "https://gaokao.chsi.com.cn/z/gkbmfslq/pcx.jsp?pageId=361"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型录取资格线",
+            "value": 505,
+            "sourceUrl": "https://gaokao.chsi.com.cn/z/gkbmfslq/pcx.jsp?pageId=361"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "province": "西藏",
+    "year": 2026,
+    "status": "unverified",
+    "checkedAt": "2026-10-20",
+    "reason": "检索到2026分数线，但区内A/B类考生、西藏班校及本科一二批必须区分；当前普通类别模型不能完整表达，不能把本科一批线冒充特控线，故不预置。",
+    "searchQuery": "2026 西藏自治区 普通高等学校招生 录取最低控制分数线 教育厅",
+    "records": []
+  },
+  {
+    "province": "陕西",
+    "year": 2026,
+    "status": "verified",
+    "checkedAt": "2026-10-20",
+    "reason": "陕西省教育考试院2026公告已打开，正文数值完整核验；满分依据现行新高考方案（2025年起实施），分数线全部为2026。",
+    "searchQuery": "陕西 2026 普通高考 本科 特殊类型 录取控制分数线 教育考试院",
+    "records": [
+      {
+        "category": "历史类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "scoreSourceUrl": "https://www.sneea.cn/info/1027/15653.htm",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 385,
+            "sourceUrl": "https://www.sneea.cn/info/1027/17649.htm"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型招生录取控制分数线",
+            "value": 462,
+            "sourceUrl": "https://www.sneea.cn/info/1027/17649.htm"
+          }
+        ]
+      },
+      {
+        "category": "物理类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "scoreSourceUrl": "https://www.sneea.cn/info/1027/15653.htm",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 376,
+            "sourceUrl": "https://www.sneea.cn/info/1027/17649.htm"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型招生录取控制分数线",
+            "value": 451,
+            "sourceUrl": "https://www.sneea.cn/info/1027/17649.htm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "province": "甘肃",
+    "year": 2026,
+    "status": "verified",
+    "checkedAt": "2026-10-20",
+    "reason": "教育部阳光高考2026官方汇总文字已核对；同平台2026公告注明甘肃省教育厅来源，为图片，未直接读取图片。",
+    "searchQuery": "甘肃 2026 普通高考 本科 特殊类型 录取控制分数线 教育考试院",
+    "announcementUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847669.html",
+    "records": [
+      {
+        "category": "历史类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "scoreSourceUrl": "https://www.ganseea.cn/gaokaogaozhao/1884.html",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 405,
+            "sourceUrl": "https://gaokao.chsi.com.cn/z/gkbmfslq/pcx.jsp?pageId=361"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型招生录取控制分数线",
+            "value": 508,
+            "sourceUrl": "https://gaokao.chsi.com.cn/z/gkbmfslq/pcx.jsp?pageId=361"
+          }
+        ]
+      },
+      {
+        "category": "物理类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "scoreSourceUrl": "https://www.ganseea.cn/gaokaogaozhao/1884.html",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 367,
+            "sourceUrl": "https://gaokao.chsi.com.cn/z/gkbmfslq/pcx.jsp?pageId=361"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型招生录取控制分数线",
+            "value": 477,
+            "sourceUrl": "https://gaokao.chsi.com.cn/z/gkbmfslq/pcx.jsp?pageId=361"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "province": "青海",
+    "year": 2026,
+    "status": "verified",
+    "checkedAt": "2026-10-20",
+    "reason": "教育部阳光高考2026官方汇总文字已核对；同平台青海2026分数线公告已定位，打开正文受限；仅普通班常规类别，不含民族专项。总分及外语满分补核现行新高考制度的官方政策解读，2026政策确认继续3+1+2；未使用往年分数线。",
+    "searchQuery": "青海 2026 普通高考 本科 特殊类型 录取控制分数线 教育考试院",
+    "announcementUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847208.html",
+    "records": [
+      {
+        "category": "历史类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "scoreSourceUrl": "https://gaokao.chsi.com.cn/gkxx/zjsd/zcjd/202501/20250124/2293353926.html",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 376,
+            "sourceUrl": "https://gaokao.chsi.com.cn/z/gkbmfslq/pcx.jsp?pageId=361"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型招生录取控制分数线",
+            "value": 427,
+            "sourceUrl": "https://gaokao.chsi.com.cn/z/gkbmfslq/pcx.jsp?pageId=361"
+          }
+        ]
+      },
+      {
+        "category": "物理类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "scoreSourceUrl": "https://gaokao.chsi.com.cn/gkxx/zjsd/zcjd/202501/20250124/2293353926.html",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 344,
+            "sourceUrl": "https://gaokao.chsi.com.cn/z/gkbmfslq/pcx.jsp?pageId=361"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型招生录取控制分数线",
+            "value": 417,
+            "sourceUrl": "https://gaokao.chsi.com.cn/z/gkbmfslq/pcx.jsp?pageId=361"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "province": "宁夏",
+    "year": 2026,
+    "status": "verified",
+    "checkedAt": "2026-10-20",
+    "reason": "银川市人民政府2026发布会新闻含完整普通类分数线，官方搜索索引文字核对，打开正文受限；分值依据自2025年起实施的新高考制度，分数线全部为2026。",
+    "searchQuery": "宁夏 2026 普通高考 本科 特殊类型 录取控制分数线 教育考试院",
+    "records": [
+      {
+        "category": "历史类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "scoreSourceUrl": "https://jyt.nx.gov.cn/zwgk/zcwj/zcjd/202207/t20220701_3595894.html",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 393,
+            "sourceUrl": "https://www.yinchuan.gov.cn/xwzx/mrdt/202606/t20260626_5274697.html"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型招生录取控制分数线",
+            "value": 474,
+            "sourceUrl": "https://www.yinchuan.gov.cn/xwzx/mrdt/202606/t20260626_5274697.html"
+          }
+        ]
+      },
+      {
+        "category": "物理类",
+        "totalMax": 750,
+        "englishMax": 150,
+        "scoreSystem": "原始与赋分合计",
+        "scoreSourceUrl": "https://jyt.nx.gov.cn/zwgk/zcwj/zcjd/202207/t20220701_3595894.html",
+        "lines": [
+          {
+            "kind": "undergraduate",
+            "name": "普通本科录取控制分数线",
+            "value": 360,
+            "sourceUrl": "https://www.yinchuan.gov.cn/xwzx/mrdt/202606/t20260626_5274697.html"
+          },
+          {
+            "kind": "special",
+            "name": "特殊类型招生录取控制分数线",
+            "value": 437,
+            "sourceUrl": "https://www.yinchuan.gov.cn/xwzx/mrdt/202606/t20260626_5274697.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "province": "新疆",
+    "year": 2026,
+    "status": "unverified",
+    "checkedAt": "2026-10-20",
+    "reason": "已定位新疆教育考试院2026公告，但普通类/单列类以及本科一二批需要专门匹配；未读取官方图片全部分类，不把一本线冒充特控线，故不预置。",
+    "searchQuery": "2026 新疆 普通高校招生 各批次 最低投档控制分数线 教育考试院",
+    "announcementUrl": "https://www.xjzk.gov.cn/c/2026-06-24/495382.shtml",
+    "records": []
+  }
+]

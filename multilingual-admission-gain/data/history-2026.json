@@ -1,0 +1,195 @@
+{
+  "version": "2026.1",
+  "year": 2026,
+  "source": "用户提供的2026年历史成绩表（仅汇总参数）",
+  "sourceSha256": "352c7302c302982d526627e92678f1577a218bd5b2c1899f50ed9f7b11cccdf0",
+  "englishMax": 150,
+  "minGroupSize": 30,
+  "rule": "同一行原始英语与小语种成绩均为(0,150]；零分无法区分缺考占位，排除。无身份字段，不能核实历史记录是否对应独立学生。",
+  "limitations": "无语种标签；原始英语考试时间、难度与满分口径缺少独立佐证，暂按150分制参考；差值不能解释为因果净增益。样本来自已转学群体，存在选择偏差。",
+  "quality": {
+    "rows": 8666,
+    "wrongYear": 0,
+    "missingOrInvalidEnglish": 203,
+    "missingOrInvalidLanguage": 686,
+    "zeroEnglish": 203,
+    "zeroLanguage": 0
+  },
+  "validPairs": 7861,
+  "excludedPairs": 805,
+  "english": {
+    "n": 7861,
+    "mean": 46.3401,
+    "q25": 34.0,
+    "median": 45.0,
+    "q75": 57.0,
+    "min": 2.0,
+    "max": 108.0
+  },
+  "language": {
+    "n": 7861,
+    "mean": 91.8005,
+    "q25": 79.0,
+    "median": 93.0,
+    "q75": 106.0,
+    "min": 21.0,
+    "max": 139.0
+  },
+  "difference": {
+    "n": 7861,
+    "mean": 45.4603,
+    "q25": 31.5,
+    "median": 46.0,
+    "q75": 60.0,
+    "min": -43.0,
+    "max": 116.0
+  },
+  "groups": [
+    {
+      "min": 0,
+      "maxExclusive": 30,
+      "label": "0–29",
+      "n": 1236,
+      "usable": true,
+      "english": {
+        "n": 1236,
+        "mean": 23.7206,
+        "q25": 21.0,
+        "median": 24.5,
+        "q75": 27.0,
+        "min": 2.0,
+        "max": 29.5
+      },
+      "language": {
+        "n": 1236,
+        "mean": 82.6282,
+        "q25": 70.0,
+        "median": 83.0,
+        "q75": 97.0,
+        "min": 21.0,
+        "max": 138.0
+      },
+      "difference": {
+        "n": 1236,
+        "mean": 58.9076,
+        "q25": 46.0,
+        "median": 59.0,
+        "q75": 73.0,
+        "min": -8.5,
+        "max": 116.0
+      }
+    },
+    {
+      "min": 30,
+      "maxExclusive": 60,
+      "label": "30–59",
+      "n": 4925,
+      "usable": true,
+      "english": {
+        "n": 4925,
+        "mean": 43.9266,
+        "q25": 37.0,
+        "median": 44.0,
+        "q75": 50.0,
+        "min": 30.0,
+        "max": 59.5
+      },
+      "language": {
+        "n": 4925,
+        "mean": 91.0282,
+        "q25": 79.0,
+        "median": 92.0,
+        "q75": 105.0,
+        "min": 24.0,
+        "max": 138.0
+      },
+      "difference": {
+        "n": 4925,
+        "mean": 47.1016,
+        "q25": 34.0,
+        "median": 48.0,
+        "q75": 61.0,
+        "min": -19.0,
+        "max": 103.0
+      }
+    },
+    {
+      "min": 60,
+      "maxExclusive": 90,
+      "label": "60–89",
+      "n": 1648,
+      "usable": true,
+      "english": {
+        "n": 1648,
+        "mean": 68.9711,
+        "q25": 62.5,
+        "median": 67.5,
+        "q75": 73.5,
+        "min": 60.0,
+        "max": 89.5
+      },
+      "language": {
+        "n": 1648,
+        "mean": 100.443,
+        "q25": 91.0,
+        "median": 102.0,
+        "q75": 112.0,
+        "min": 30.0,
+        "max": 139.0
+      },
+      "difference": {
+        "n": 1648,
+        "mean": 31.4718,
+        "q25": 21.0,
+        "median": 33.0,
+        "q75": 43.5,
+        "min": -43.0,
+        "max": 75.0
+      }
+    },
+    {
+      "min": 90,
+      "maxExclusive": 120,
+      "label": "90–119",
+      "n": 52,
+      "usable": true,
+      "english": {
+        "n": 52,
+        "mean": 95.3462,
+        "q25": 91.375,
+        "median": 94.0,
+        "q75": 97.75,
+        "min": 90.0,
+        "max": 108.0
+      },
+      "language": {
+        "n": 52,
+        "mean": 109.0577,
+        "q25": 102.0,
+        "median": 109.5,
+        "q75": 115.25,
+        "min": 72.0,
+        "max": 138.0
+      },
+      "difference": {
+        "n": 52,
+        "mean": 13.7115,
+        "q25": 9.0,
+        "median": 15.0,
+        "q75": 19.5,
+        "min": -25.5,
+        "max": 45.0
+      }
+    },
+    {
+      "min": 120,
+      "maxExclusive": 151,
+      "label": "120–150",
+      "n": 0,
+      "usable": false,
+      "english": null,
+      "language": null,
+      "difference": null
+    }
+  ]
+}

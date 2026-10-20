@@ -1,0 +1,7 @@
+export function narratives(a,s){const lines=[];if(!a.n)return ['没有可用于分析的有效英语成绩，请核查数据质量说明。'];
+ if(a.weakCount===null)lines.push('英语满分未知且有效样本不足30条，当前不能可靠划分薄弱群体。');else if(a.weakCount/a.n>=.4)lines.push('本次数据中英语薄弱群体占比较高。应结合试卷难度、得分率和本组相对位置核实，低分本身并不证明适合改学多语种。');else if(a.weakCount/a.n<.15)lines.push('按本系统规则，英语薄弱群体占比较低，本次数据未显示普遍的英语薄弱现象。');else lines.push('英语薄弱群体具有一定规模，建议结合具体学科表现开展进一步核实。');
+ if(a.imbalanceCount===null)lines.push('缺少足够的其他学科成绩或可比样本，不能据此判断英语相对于其他学科的偏科程度。');else if(a.imbalanceCount/a.n>=.15)lines.push('存在一批其他学科相对位置较好、英语明显落后的学生，值得进一步开展专项学情分析与多语种培养路径适配性评估。');else if(a.weakCount/a.n>=.4)lines.push('英语薄弱群体中，可确认的明显偏科比例相对较低；需要同时考察整体学业基础，不能把综合学力不足归因于英语单科。');else lines.push('本次数据尚未识别出规模较大的英语明显偏科群体，建议优先结合现有教学措施进一步核实。');
+ if(s.available){for(const l of s.lines){if(l.imbalanceCritical>0)lines.push(`${l.name}附近有${l.imbalanceCritical}条英语明显偏科记录，属于可进一步评估的重点对象；临界区间为线下30分至线上不足10分。`);}if(!s.lines.some(l=>l.weakCritical>0)&&a.weakCount>0)lines.push('当前英语薄弱群体未出现在已匹配参考线的临界区间，不能据此宣称存在直接的跨线增量。');if(s.referenceOnly)lines.push('学校考试尚未经过难度校准，所列结果仅为相对于2026年官方分数线的参考情景，不能解释为预计高考本科人数。');}else lines.push(s.reason);
+ if(s.reference.unmatched)lines.push('部分候选记录缺少可用的历史参考分组或满分口径未匹配，不对其生成精确改善幅度。');if(a.rows.some(r=>r.total==null))lines.push('部分记录缺少可靠总分，已保留英语学情分析，并从达线率分母中排除。');if(a.quality.duplicates+a.quality.conflicts+a.quality.missingEnglish+a.quality.zeroEnglish+a.quality.invalidEnglish>0)lines.push('导入数据存在重复、冲突、缺失或异常记录，报告按清洗后的有效口径统计，需结合数据质量表复核。');
+ return lines;
+}
