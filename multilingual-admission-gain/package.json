@@ -1,0 +1,10 @@
+{
+  "name": "multilingual-admission-gain",
+  "version": "1.3.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/v13.test.mjs"
+  },
+  "engines": {"node": ">=20"}
+}

@@ -1,12 +1,17 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import XLSX from '../vendor/xlsx.full.min.js';
+import vm from 'node:vm';
+import {createRequire} from 'node:module';
 import {readWorkbook,extractTables} from '../src/importer.js';
 import {groupAndClean} from '../src/cleaning.js';
 import {analyzeEnglish,simulate,validateSettings} from '../src/analysis.js';
 import {buildRoster,makeRosterWorkbook} from '../src/roster.js';
 import {renderReport} from '../src/report.js';
+const vendor={exports:{}};
+const vendorSource=fs.readFileSync(new URL('../vendor/xlsx.full.min.js',import.meta.url),'utf8');
+vm.runInThisContext(`(function(module,exports,require,Buffer,process,console){${vendorSource}\n})`)(vendor,vendor.exports,createRequire(import.meta.url),Buffer,process,console);
+const XLSX=vendor.exports;
 const history=JSON.parse(fs.readFileSync(new URL('../data/history-2026.json',import.meta.url)));
 const settings=(undergraduate=450,advanced=500,weakEnglish=null)=>({undergraduate,advanced,weakEnglish,englishMax:150,totalMax:750});
 function group(rows,school='虚构甲中学'){return {meta:{school,province:'山东',grade:'高三',exam:'一模',englishMax:150,totalMax:750},rows:rows.map((r,i)=>({id:r.studentId||`id:${i}`,studentId:r.studentId||`S${i+1}`,name:r.name||`虚构学生${i+1}`,className:'高三一班',english:r.english,total:r.total??null,subjects:r.subjects||{}})),quality:{input:rows.length}};}
