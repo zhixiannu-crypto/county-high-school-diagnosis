@@ -1,0 +1,17 @@
+// SheetJS CE writes filters and widths but not frozen panes. Repack its uncompressed
+// XLSX ZIP after adding the standard OOXML frozen first-row view to each sheet.
+const enc=new TextEncoder(),dec=new TextDecoder();
+const crcTable=Array.from({length:256},(_,i)=>{let c=i;for(let j=0;j<8;j++)c=c&1?0xedb88320^(c>>>1):c>>>1;return c>>>0;});
+function crc32(bytes){let c=0xffffffff;for(const b of bytes)c=crcTable[(c^b)&255]^(c>>>8);return (c^0xffffffff)>>>0;}
+function u16(b,p){return b[p]|b[p+1]<<8;}function u32(b,p){return (b[p]|b[p+1]<<8|b[p+2]<<16|b[p+3]<<24)>>>0;}
+function put16(b,p,v){b[p]=v&255;b[p+1]=v>>>8&255;}function put32(b,p,v){put16(b,p,v);put16(b,p+2,v>>>16);}
+function join(parts){const out=new Uint8Array(parts.reduce((n,p)=>n+p.length,0));let at=0;for(const p of parts){out.set(p,at);at+=p.length;}return out;}
+export function freezeFirstRows(input){const bytes=input instanceof Uint8Array?input:new Uint8Array(input);let e=-1;for(let p=bytes.length-22;p>=Math.max(0,bytes.length-65557);p--)if(u32(bytes,p)===0x06054b50){e=p;break;}if(e<0)throw Error('导出文件的ZIP目录无效。');
+ const count=u16(bytes,e+10),entries=[],base=u32(bytes,e+16);let p=base;
+ for(let i=0;i<count;i++){if(u32(bytes,p)!==0x02014b50)throw Error('导出文件的ZIP条目无效。');const method=u16(bytes,p+10),size=u32(bytes,p+20),nameLength=u16(bytes,p+28),extraLength=u16(bytes,p+30),commentLength=u16(bytes,p+32),local=u32(bytes,p+42),nameBytes=bytes.slice(p+46,p+46+nameLength),name=dec.decode(nameBytes);if(method!==0)throw Error('导出文件需要使用不压缩的ZIP格式。');const start=local+30+u16(bytes,local+26)+u16(bytes,local+28);let data=bytes.slice(start,start+size);
+ if(/^xl\/worksheets\/sheet\d+\.xml$/.test(name)){let xml=dec.decode(data);const pane='<sheetViews><sheetView workbookViewId="0"><pane ySplit="1" topLeftCell="A2" activePane="bottomLeft" state="frozen"/></sheetView></sheetViews>';if(/<sheetViews[\s>]/.test(xml))xml=xml.replace(/<sheetViews[\s\S]*?<\/sheetViews>/,pane);else xml=xml.replace(/<sheetData[\s>]/,pane+'<sheetData');xml=xml.replace(/<row r="\d+">[\s\S]*?<\/row>/g,row=>/<c r="T\d+"[^>]*><v>重点评估<\/v><\/c>/.test(row)?row.replace(/<c /g,'<c s="1" '):row);data=enc.encode(xml);}
+ if(name==='xl/styles.xml'){let xml=dec.decode(data);xml=xml.replace('<fills count="2">','<fills count="3">').replace('</fills>','<fill><patternFill patternType="solid"><fgColor rgb="FFF4F0F8"/><bgColor indexed="64"/></patternFill></fill></fills>').replace('<cellXfs count="1">','<cellXfs count="2">').replace('</cellXfs>','<xf numFmtId="0" fontId="0" fillId="2" borderId="0" xfId="0" applyFill="1"/></cellXfs>');data=enc.encode(xml);}
+ entries.push({nameBytes,data});p+=46+nameLength+extraLength+commentLength;}
+ const locals=[],centrals=[];let offset=0;for(const {nameBytes,data} of entries){const crc=crc32(data),local=new Uint8Array(30),central=new Uint8Array(46);put32(local,0,0x04034b50);put16(local,4,20);put16(local,8,0);put32(local,14,crc);put32(local,18,data.length);put32(local,22,data.length);put16(local,26,nameBytes.length);locals.push(local,nameBytes,data);
+ put32(central,0,0x02014b50);put16(central,4,20);put16(central,6,20);put32(central,16,crc);put32(central,20,data.length);put32(central,24,data.length);put16(central,28,nameBytes.length);put32(central,42,offset);centrals.push(central,nameBytes);offset+=local.length+nameBytes.length+data.length;}
+ const dir=join(centrals),end=new Uint8Array(22);put32(end,0,0x06054b50);put16(end,8,entries.length);put16(end,10,entries.length);put32(end,12,dir.length);put32(end,16,offset);return join([...locals,dir,end]);}

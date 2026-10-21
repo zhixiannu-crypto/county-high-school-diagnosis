@@ -16,14 +16,16 @@ export function readWorkbook(XLSX,buffer,filename){if(buffer.byteLength>RULES.ma
 export function summaryFrom(t){const out={...t.meta};for(const row of t.rows.slice(0,40)){for(let i=0;i<row.length;i++){const label=String(row[i]??'').trim(),value=numeric(row[i+1]);const key=({'年级人数':'size','学生人数':'size','英语平均分':'averageEnglish','平均英语成绩':'averageEnglish','英语薄弱人数':'weakCount'})[label];if(key&&value!==null)out[key]=value;}}
  return out.size!=null||out.averageEnglish!=null||out.weakCount!=null?out:null;}
 export function tableInfo(t){return {key:t.key,name:t.name,meta:t.meta,header:t.header?{row:t.header.row,depth:t.header.depth,labels:t.header.labels,candidates:t.header.candidates,mapping:t.header.mapping}:null,summary:summaryFrom(t),needsEnglishConfirmation:t.header?.mapping.english!=null&&/外语/.test(t.header.labels[t.header.mapping.english])&&t.header.mapping.language==null};}
-export function extractTables(tables,overrides={}){let nextID=1;const identities=new Map(),result=[];
+export function extractTables(tables,overrides={}){const result=[];
  for(const t of tables){const o=overrides[t.key]||{},meta={...t.meta,...o.meta},h=t.header;if(o.skip)continue;if(!h){const s=summaryFrom({...t,meta});result.push({meta,summary:s,source:t.name,rows:[],unrecognized:!s});continue;}const mapping={...h.mapping,...o.mapping};const rows=[];
  for(let ri=h.row+h.depth;ri<t.rows.length;ri++){const arr=t.rows[ri];if(!arr||arr.every(v=>v==null||String(v).trim()===''))continue;if(arr.some(v=>/^(平均分|合计|平均|总计|最高分|最低分)$/.test(String(v??'').trim())))continue;if(Object.entries(mapping).filter(([k])=>['english','total',...SUBJECTS].includes(k)).some(([k,c])=>identify(arr[c])===k))continue;
- const r={meta:{...meta},subjects:{},sourceRow:ri+1,formula:[]};for(const [field,col]of Object.entries(mapping)){if(col===null||col<0)continue;const value=arr[col];if(['english','total',...SUBJECTS].includes(field)){const val=t.formulaCells.has(`${ri}:${col}`)?null:numeric(value);if(t.formulaCells.has(`${ri}:${col}`))r.formula.push(field);if(SUBJECTS.includes(field))r.subjects[field]=val;else r[field]=val;}else if(field==='id'){if(value!==null&&String(value).trim()){const key=String(meta.school||'')+'|'+String(value).trim();if(!identities.has(key))identities.set(key,nextID++);r.id=identities.get(key);}}else if(value!==null&&String(value).trim())r.meta[field]=String(value).trim();}
+ const r={meta:{...meta},subjects:{},sourceRow:ri+1,formula:[]};for(const [field,col]of Object.entries(mapping)){if(col===null||col<0)continue;const value=arr[col];if(['english','total',...SUBJECTS].includes(field)){const val=t.formulaCells.has(`${ri}:${col}`)?null:numeric(value);if(t.formulaCells.has(`${ri}:${col}`))r.formula.push(field);if(SUBJECTS.includes(field))r.subjects[field]=val;else r[field]=val;}else if(['id','name','className'].includes(field)){if(value!==null&&!t.formulaCells.has(`${ri}:${col}`)&&String(value).trim())r[field==='id'?'studentId':field]=String(value).trim();}else if(value!==null&&String(value).trim())r.meta[field]=String(value).trim();}
+ // Only an explicit source ID can prove two worksheet rows are the same student.
+ r.id=r.studentId?`id:${r.studentId}`:null;
  r.meta.province=provinceOf(r.meta.province);r.meta.category=categoryOf(r.meta.category||r.meta.combination);r.meta.englishMax=numeric(r.meta.englishMax);r.meta.totalMax=numeric(r.meta.totalMax);r.meta.year=numeric(r.meta.year);r.meta.zeroValid=/^(是|已核实|true|1)$/i.test(String(r.meta.zeroValid));
  // Foreign-language columns require explicit English confirmation or a row-level language.
  if(/外语/.test(h.labels[mapping.english]||'')&&!mapping.language&&mapping.language!==0&&!o.englishConfirmed)r.nonEnglish=true;
  if(r.meta.language&&!/^(英语|英文|english)$/i.test(r.meta.language))r.nonEnglish=true;
  rows.push(r);}
- result.push({meta,source:t.name,rows});}identities.clear();return result;
+ result.push({meta,source:t.name,rows});}return result;
 }

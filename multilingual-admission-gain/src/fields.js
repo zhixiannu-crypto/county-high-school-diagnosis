@@ -16,7 +16,7 @@ export function detectHeader(rows){let best=null;for(let i=0;i<Math.min(40,rows.
  if(keys.some(k=>['english','total',...SUBJECTS].includes(k))&&(!best||score>best.score))best={row:i,depth,labels,candidates,score};
  }if(!best)return null;best.mapping=Object.fromEntries(Object.entries(best.candidates).filter(([,v])=>v.length===1).map(([k,v])=>[k,v[0]]));return best;}
 export function metadata(rows,sheetName,filename){const top=rows.slice(0,20);const m={};
- for(const row of top){for(let i=0;i<row.length;i++){const t=String(row[i]??'').trim();const match=t.match(/^([^:：]{1,12})[:：]\s*(.+)$/);if(match){const k=identify(match[1]);if(k&&!['english','total',...SUBJECTS,'id'].includes(k))m[k]=match[2];}else{const k=identify(t);if(k&&['school','province','grade','exam','year','category','englishMax','totalMax','scoreSystem'].includes(k)&&row[i+1]!=null&&!identify(row[i+1]))m[k]=row[i+1];}}}
+ for(const row of top){for(let i=0;i<row.length;i++){const t=String(row[i]??'').trim();const match=t.match(/^([^:：]{1,12})[:：]\s*(.+)$/);if(match){const k=identify(match[1]);if(k&&!['english','total',...SUBJECTS,'id','name','className'].includes(k))m[k]=match[2];}else{const k=identify(t);if(k&&['school','province','grade','exam','year','category','englishMax','totalMax','scoreSystem'].includes(k)&&row[i+1]!=null&&!identify(row[i+1]))m[k]=row[i+1];}}}
  const text=[sheetName,filename,...rows.slice(0,5).flat()].join(' ');
  m.school ||= text.match(/([\u4e00-\u9fa5]{2,25}(?:中学|高中|高级中学))/)?.[1]||'';
  m.province=provinceOf(m.province)||PROVINCES.find(p=>text.includes(p+'省')||text.includes(p+'市'))||'';

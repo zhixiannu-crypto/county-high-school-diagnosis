@@ -2,3 +2,4 @@
 .metrics-primary{grid-template-columns:repeat(2,1fr);margin:18px 0}.metrics-primary .metric{border-bottom:1px solid #ddd;padding:12px}.metrics-primary .metric:nth-child(odd){border-right:1px solid #ddd}.metrics-primary .metric:nth-last-child(-n+2){border-bottom:0}.metrics-primary .metric-value{font-size:25pt}.metrics-primary .metric-focus .metric-value{font-size:34pt}.result-sentence{font-size:10pt!important}.report-page .chart svg{max-height:65mm}.report-page .small{font-size:8pt}.synthesis p{font-size:9pt;margin-bottom:10pt}.report-note{font-size:8pt!important}.report-page{min-height:0}
 
 .report-brand .brand-logo{width:145px;height:auto;max-height:none}.report-brand .report-brand-title{font-size:9pt;color:#5f5865}
+.line-area,.roster-status{display:none!important}
