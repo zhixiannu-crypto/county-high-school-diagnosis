@@ -1,10 +1,15 @@
 {
   "name": "multilingual-admission-gain",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "private": true,
   "type": "module",
+  "description": "七校纵横·县中联盟：浏览器本地成绩分析",
   "scripts": {
+    "start": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
     "test": "node --test tests/v13.test.mjs"
   },
-  "engines": {"node": ">=20"}
+  "engines": {
+    "node": ">=20"
+  }
 }

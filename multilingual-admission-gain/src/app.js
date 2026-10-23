@@ -6,7 +6,7 @@ import {renderReport,groupLabel} from './report.js';
 import {escapeHTML as e} from './charts.js';
 const $=s=>document.querySelector(s);
 let worker=null,timer=null,model=null,tableInfos=[],pendingGroup=null,result=null,lastFocus=null,generation=0,activeDemo=false;
-const diagnostic=(stage,detail='')=>console.warn('[升学分析 V1.3]',stage,detail);
+const diagnostic=(stage,detail='')=>console.warn('[升学分析 V1.4]',stage,detail);
 const ready=fetch(new URL('../data/history-2026.json',import.meta.url),{cache:'no-store'}).then(async response=>{if(!response.ok)throw Error(`HTTP ${response.status}`);const data=await response.json();if(!Array.isArray(data?.groups))throw Error('历史模型结构无效');model=data;}).catch(error=>diagnostic('历史参考参数加载失败',error?.message));
 function status(message,error=false){$('#status').textContent=message;$('#status').classList.toggle('error',error);}
 function busy(on){$('#upload').disabled=on;$('#demo').disabled=on;$('#upload-new').disabled=on;}
